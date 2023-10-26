@@ -54,5 +54,5 @@ fn main() {
     let lib_base_dir = base_dir.join("lib/");
     let lib_out_dir = out_dir.join("lib/");
     println!("from {:?} to {:?}", lib_base_dir, lib_out_dir);
-    copy_dir(lib_base_dir, lib_out_dir).unwrap();
+    // copy_dir(lib_base_dir, lib_out_dir).unwrap();
 }
